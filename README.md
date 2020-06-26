@@ -41,7 +41,7 @@ https://covidtracking.com/api/states
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 - [Wireframes](https://www.figma.com/file/mxErMgMKl56Hn3laXCMwty/COVID-19-design?node-id=0%3A1)
-- [add link to your react architecture](https://www.figma.com/file/xaMLzFv4FNGUxbAU4Az9cV/React-Architecture?node-id=0%3A1)
+- [React Architecture](https://www.figma.com/file/xaMLzFv4FNGUxbAU4Az9cV/React-Architecture?node-id=0%3A1)
 
 
 ### MVP/PostMVP - 5min
@@ -64,20 +64,25 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
+| App | This will make the initial data pull and include React Router, Nav, Main, and Footer components| 
 | Nav | This will render the header include the nav | 
-| Main | This will render the header include the nav | 
-| About | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
-| Overview | This will render the header include the nav | 
-| SearchForm | This will render the header include the nav | 
-| Main | This will render the header include the nav | 
+| Main | This will be the main section or a Home page and include Overview, SearchForm, and StateInfo components| 
+| About | This will render the about section | 
+| Footer | This will render the footer that will appear in all pages | 
+| Overview | This will render the overview statistics of COVID-19 in the US | 
+| SearchForm | This will render the search form to search stats for a particular state | 
+| StateInfo | This will render the statistics of COVID-19 in inputted state | 
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
+| Create components and export/import among files| H | 1hr| hr | hr |
+| Set up React Routing | H | 20min| hrs | hrs |
+| NavBar and Footer | H | 1.5hr| 3.5hrs | 3.5hrs |
+| Research COVID-19 and write About component | H | 1.5hrs| 3.5hrs | 3.5hrs |
+| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
