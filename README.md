@@ -87,9 +87,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | make state&function to pass up user input | H | 1.5hrs| 3.5hrs | 3.5hrs |
 | create stateInfo component | H | 2hrs| 2.5hrs | 2.5hrs |
 | Working with API | H | 4hrs| 2.5hrs | 2.5hrs |
-| Styling for nav, footer, about page | H | 3hrs| 2.5hrs | 2.5hrs |
-| Styling for main | H | 4hrs| 2.5hrs | 2.5hrs |
-| Total | H | 23hrs| 5hrs | 5hrs |
+| Basic Styling for nav, footer, about page | H | 2hrs| 2.5hrs | 2.5hrs |
+| Basic Styling for main | H | 2hrs| 2.5hrs | 2.5hrs |
+| Additional Styling for the page | H | 4hrs| 2.5hrs | 2.5hrs |
+| Total | H | 24hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
