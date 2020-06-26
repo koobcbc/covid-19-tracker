@@ -89,7 +89,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 4hrs| 2.5hrs | 2.5hrs |
 | Basic Styling for nav, footer, about page | H | 2hrs| 2.5hrs | 2.5hrs |
 | Basic Styling for main | H | 2hrs| 2.5hrs | 2.5hrs |
-| Additional Styling for the page | H | 4hrs| 2.5hrs | 2.5hrs |
+| Additional Styling for the page | M | 4hrs| 2.5hrs | 2.5hrs |
 | Total | H | 24hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
