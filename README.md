@@ -82,10 +82,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Set up React Routing | H | 20min| hrs | hrs |
 | NavBar and Footer | H | 1.5hr| 3.5hrs | 3.5hrs |
 | Research COVID-19 and write About component | H | 1.5hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| main - make API call and pass down data | H | 2hrs| 3.5hrs | 3.5hrs |
+| make searchForm | H | 2.5hrs| 2.5hrs | 2.5hrs |
+| make state&function to pass up user input | H | 1.5hrs| 3.5hrs | 3.5hrs |
+| create stateInfo component | H | 2hrs| 2.5hrs | 2.5hrs |
+| Working with API | H | 4hrs| 2.5hrs | 2.5hrs |
+| Styling for nav, footer, about page | H | 3hrs| 2.5hrs | 2.5hrs |
+| Styling for main | H | 4hrs| 2.5hrs | 2.5hrs |
+| Total | H | 23hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
