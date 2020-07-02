@@ -11,9 +11,9 @@ This is a website that displays statistics on COVID-19 mainly in the US and its 
 
 ## API
 
--https://api.covid19api.com/summary
--http://covidtracking.com/api/us
--https://covidtracking.com/api/states
+- https://api.covid19api.com/summary
+- http://covidtracking.com/api/us
+- https://covidtracking.com/api/states
 
 ```
 {data: {
