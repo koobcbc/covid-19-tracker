@@ -102,7 +102,17 @@ Time frames are also key in the development cycle.  You have limited time to cod
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+{ByCountryGlobalData  ?
+                <div className='globalOverview'>
+                    <h4>Confirmed: {ByCountryGlobalData.TotalConfirmed}
+                                    <span className={ByCountryGlobalData.NewConfirmed > 0 ? 'positive' : 'negative'}> {ByCountryGlobalData.NewConfirmed > 0 ? '+' : ''}{ByCountryGlobalData.NewConfirmed}</span>
+                    </h4>
+                    <h4>Death: {ByCountryGlobalData.TotalDeaths}
+                                    <span className={ByCountryGlobalData.NewDeaths > 0 ? 'positive' : 'negative'}> {ByCountryGlobalData.NewDeaths > 0 ? '+' : ''}{ByCountryGlobalData.NewDeaths}</span>
+                    </h4>
+                    <h4>Recovered: {ByCountryGlobalData.TotalRecovered}
+                                    <span className={ByCountryGlobalData.NewRecovered > 0 ? 'positive' : 'negative'}> {ByCountryGlobalData.NewRecovered > 0 ? '+' : ''}{ByCountryGlobalData.NewRecovered}</span>
+                    </h4>
+                </div>
+                : null}
 ```
