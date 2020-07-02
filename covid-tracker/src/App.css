@@ -82,7 +82,7 @@ ul a:hover {
   padding: 20px 20px 10px 10px;
   display: inline-block;
   margin-top: 10px;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .navBar {
@@ -248,12 +248,22 @@ input {
 /* ---------------- */
 /* RESPONSIVE DESIGN */
 
+
 /* For smaller screen (mobile s/m) */
-@media only screen and (max-midth: 430px) {
+@media only screen and (max-width: 430px) {
   .globalOverview h4 {
     font-size: 15px;
   }
 }
+
+/* mobile S */
+@media only screen and (max-width: 389px) {
+  .title-center a h1 {
+    font-size: 20px;
+    
+  }
+}
+
 /* ---TABLET / PC ---*/
 
 @media only screen and (min-width: 756px) {
