@@ -9,7 +9,7 @@ const Overview = ({ summaryData }) => {
     return(
         <>
             <div className='overview-container'>
-                <h2>Overview of US stats</h2>
+                <h2>COVID-19 Status in the US</h2>
                 <p className='dateUpdated'>Date Updated: {summary.dateChecked}</p>
                 <div className='overview'>
                     <h4>Confirmed: {summary.positive} <span className={summary.positiveIncrease>0 ? 'positive' : 'negative'}> {summary.positiveIncrease>0 ? '+' : ''}{summary.positiveIncrease}</span></h4>

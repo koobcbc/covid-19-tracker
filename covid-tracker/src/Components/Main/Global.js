@@ -9,7 +9,7 @@ const Global = ({ ByCountryData }) => {
     return(
         <>
             <div className='global-overview-container'>
-                <h2>Overview of Global Stats</h2>
+                <h2>Global COVID-19 Statistics</h2>
                 {ByCountryGlobalData  ?
                 <div className='globalOverview'>
                     <h4>Confirmed: {ByCountryGlobalData.TotalConfirmed}
