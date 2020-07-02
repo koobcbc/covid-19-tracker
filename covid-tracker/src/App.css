@@ -248,6 +248,7 @@ input {
 /* ---------------- */
 /* RESPONSIVE DESIGN */
 
+/* For smaller screen (mobile s/m) */
 @media only screen and (max-midth: 430px) {
   .globalOverview h4 {
     font-size: 15px;
