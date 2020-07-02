@@ -55,25 +55,26 @@ function App() {
   return (
     <>
       <div className='Document'>
-      <div className="App">
-        <Nav />
-      </div>
-      <main>
-        <Switch>
-          <Route exact path='/' render = {props => <Main {...props} 
-                                                            summaryData={summaryData}  
-                                                            handleSubmitFromApp={handleSubmitFromApp}
-                                                            inputApp={inputApp}
-                                                            handleCountrySubmitFromApp={handleCountrySubmitFromApp}
-                                                            />} />
-          <Route path='/about' render ={props => <About {...props} />} />
-          <Route path='/by-country' render = {props => <ByCountry {...props}
-                                                                  handleCountrySubmitFromApp={handleCountrySubmitFromApp}
-                                                                  CountryInputApp={CountryInputApp}
-                                                                  ByCountryData={ByCountryData}
-                                                                  />} />
-        </Switch>
-      </main>
+        <div className="App">
+          <Nav />
+        </div>
+        <main>
+          <Switch>
+            <Route exact path='/' render = {props => <Main {...props} 
+                                                              summaryData={summaryData}  
+                                                              handleSubmitFromApp={handleSubmitFromApp}
+                                                              inputApp={inputApp}
+                                                              handleCountrySubmitFromApp={handleCountrySubmitFromApp}
+                                                              />} />
+            <Route path='/about' render ={props => <About {...props} />} />
+            <Route path='/by-country' render = {props => <ByCountry {...props}
+                                                                    handleCountrySubmitFromApp={handleCountrySubmitFromApp}
+                                                                    CountryInputApp={CountryInputApp}
+                                                                    ByCountryData={ByCountryData}
+                                                                    />} />
+          </Switch>
+        </main>
+        <Footer />
       </div>
     </>
   );

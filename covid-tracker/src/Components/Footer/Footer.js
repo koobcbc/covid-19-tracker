@@ -3,7 +3,11 @@ import React from 'react'
 
 const Footer = () => {
     return(
-        <h3>Footer</h3>
+        <>
+            <div className='footer'>
+                <p>COVID-19 Tracker created by Katy Koo</p>
+            </div>
+        </>
     )
 }
 

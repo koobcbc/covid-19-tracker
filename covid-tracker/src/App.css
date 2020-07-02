@@ -1,5 +1,6 @@
 .Document {
   height: 100vh;
+  width: 100vw;
 }
 
 .App {
@@ -8,7 +9,7 @@
   background-color: #F5DD90;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -17,9 +18,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -28,28 +29,26 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 ul a {
   text-decoration: none;
   list-style: none;
   padding: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: bold;
 }
 
@@ -61,6 +60,7 @@ ul a:hover {
   display: flex;
   flex-direction: row;
   margin: 0;
+  padding: 0;
 
 }
 
@@ -78,10 +78,11 @@ ul a:hover {
 
 .nav h1 {
   font-weight: 600;
-  font-size: 40px;
-  padding: 20px 20px 20px 10px;
+  font-size: 30px;
+  padding: 20px 20px 10px 10px;
   display: inline-block;
   margin-top: 10px;
+  width: 200px;
 }
 
 .navBar {
@@ -114,6 +115,12 @@ main {
   align-items: center;
   background-color: #324376;
   color: white;
+  width: 100vw;
+}
+
+.overview h2 {
+  font-size: 18px;
+  width: 290px;
 }
 
 .overview {
@@ -125,12 +132,13 @@ main {
 
 .overview h4 {
   border: 3px solid #586BA4;
-  padding: 20px;
+  padding: 15px;
+  font-size: 15px;
 }
 
 .overview-container {
-  padding-top: 40px;
-  padding-bottom: 30px;
+  width: 100%;
+  padding: 30px 20px;
 }
 
 .dateUpdated {
@@ -139,8 +147,13 @@ main {
 
 .stateInfoData {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-items: center;
+}
+
+.stateInfoData h4 {
+  font-size: 14px;
 }
 
 .center {
@@ -166,6 +179,7 @@ input {
 
 .ByCountryDiv {
   height: 100vh;
+  width: 100%;
 }
 
 .placeHolder {
@@ -176,11 +190,12 @@ input {
   min-height: 100vh;
   background-color: #324376;
   padding-top: 30px;
+  width: 100%;
 }
 
 .CountryInfoData {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   text-align: center;
   padding-top: 20px;
 }
@@ -190,7 +205,7 @@ input {
 }
 
 .AboutContainer {
-  padding: 50px 140px;
+  padding: 50px 26px;
 }
 
 .globalOverview {
@@ -205,10 +220,232 @@ input {
   padding: 20px;
 }
 
+.global-overview-container {
+  padding: 40px;
+}
  
-
 #searchByState {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.footer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: #253258;
+  color: rgba(255, 255, 255, 0.795);
+}
+
+.footer p {
+  font-size: 11px;
+  margin: 0;
+  padding: 5px 15px;
+}
+
+
+/* ---------------- */
+/* RESPONSIVE DESIGN */
+
+@media only screen and (max-midth: 430px) {
+  .globalOverview h4 {
+    font-size: 15px;
+  }
+}
+/* ---TABLET / PC ---*/
+
+@media only screen and (min-width: 756px) {
+  ul a {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  ul a:hover {
+    background-color: #a0b5f359;
+  }
+  
+  .navBar ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #2a469c;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav h1 {
+    font-weight: 600;
+    font-size: 40px;
+    padding: 20px 20px 20px 10px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .navBar {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 219, 125);
+  }
+  
+  .nav img {
+    display: inline;
+    color: #F2542D;
+  }
+  
+  .title-center {
+    margin-top: 10px;
+  }
+  
+  .title-center a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #324376;
+    color: white;
+  }
+  
+  .overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .overview h4 {
+    border: 3px solid #586BA4;
+    padding: 20px;
+  }
+  
+  .overview-container {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  
+  .dateUpdated {
+    font-size: 10px;
+  }
+  
+  .stateInfoData {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .positive {
+    color: tomato
+  }
+  
+  .negative {
+    color: lime;
+  }
+  
+  .stateInfoContainer {
+    min-height: 100vh;
+    background-color: #324376;
+  }
+  
+  input {
+    color: black;
+  }
+  
+  .ByCountryDiv {
+    height: 100vh;
+  }
+  
+  .placeHolder {
+    height: 100vh;
+  }
+  
+  .CountryInfoContainer {
+    min-height: 100vh;
+    background-color: #324376;
+    padding: 40px 70px;
+  }
+  
+  .CountryInfoData-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .CountryInfoData {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 20px;
+    width: 520px;
+  }
+  
+  .mostCommonSymptomList li{
+    list-style-position: outside;
+  }
+  
+  .AboutContainer {
+    padding: 50px 140px;
+  }
+  
+  .globalOverview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .globalOverview h4 {
+    border: 3px solid #586BA4;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .global-overview-container {
+    padding: 30px;
+  }
+  
+  #searchByState {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: #253258;
+    color: rgba(255, 255, 255, 0.795);
+  }
+  
+  .footer p {
+    font-size: 11px;
+    margin: 0;
+    padding: 5px 15px;
+  }
+}
+

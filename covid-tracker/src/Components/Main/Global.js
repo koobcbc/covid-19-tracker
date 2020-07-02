@@ -8,7 +8,7 @@ const Global = ({ ByCountryData }) => {
 
     return(
         <>
-            <div className='overview-container'>
+            <div className='global-overview-container'>
                 <h2>Overview of Global Stats</h2>
                 {ByCountryGlobalData  ?
                 <div className='globalOverview'>
