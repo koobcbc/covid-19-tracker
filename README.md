@@ -3,7 +3,7 @@
 ## Project Links
 
 - [Github repo link](https://github.com/koobcbc/covid-19-tracker)
-- [Deployment link](https://covid19-tracker-koo.netlify.app/)
+- [Deployment link](https://covid-tracker-koo.netlify.app/)
 
 ## Project Description
 
