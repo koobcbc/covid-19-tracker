@@ -99,8 +99,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
-
 ```
 {ByCountryGlobalData  ?
                 <div className='globalOverview'>
