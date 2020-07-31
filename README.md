@@ -2,12 +2,15 @@
 
 ## Project Links
 
-- [Github repo link](https://github.com/koobcbc/covid-19-tracker)
 - [Deployment link](https://covid-tracker-koo.netlify.app/)
 
 ## Project Description
 
-This is a website that displays statistics on COVID-19 mainly in the US and its fifty states.
+This is a website that displays simple statistics on COVID-19 in the US by states and global statistics by countries.
+I used React.js for the framework of the app.
+
+## Preview
+![preview of Home Page](https://imgur.com/a/9Xaz9lA)
 
 ## API
 
@@ -15,6 +18,7 @@ This is a website that displays statistics on COVID-19 mainly in the US and its 
 - http://covidtracking.com/api/us
 - https://covidtracking.com/api/states
 
+Snippet of API:
 ```
 {data: {
 "date": 20200625,
@@ -45,24 +49,20 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - [React Architecture](https://www.figma.com/file/xaMLzFv4FNGUxbAU4Az9cV/React-Architecture?node-id=0%3A1)
 
 
-### MVP/PostMVP - 5min
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+### MVP/PostMVP
 
 #### MVP
-- Find and use external api 
-- Render data on page 
-- Allow user to input their state to view its COVID-19 statistical data
-- Allow user to navigate through links
+- Find and use external api.
+- Render data on page and display US statistics and global statistics. 
+- Allow user to navigate through links.
+- Allow users to make an input to view COVID-19 data in the selected state/country.
+- Display additional information on COVID-19 in about page.
 
 #### PostMVP
 
-- Additional Styling
+- Additional Styling including animations.
 
 ## Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
 | Component | Description | 
 | --- | :---: |  
@@ -76,7 +76,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | StateInfo | This will render the statistics of COVID-19 in inputted state | 
 
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+## Time Frame
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -95,9 +95,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 24hrs| 28.5hrs| 28.5hrs|
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+- Axios - 
 
 ## Code Snippet
+This code snippet was written to display negative and positive values in distinguished styles.
 
 ```
 {ByCountryGlobalData  ?
