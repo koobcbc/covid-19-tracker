@@ -11,6 +11,7 @@ I used React.js for the framework of the app.
 
 ## Preview
 ![preview of Home Page](https://i.imgur.com/JZiAVot.png&s=50)
+<img src="https://i.imgur.com/JZiAVot.png" width="200px">
 
 ## API
 
