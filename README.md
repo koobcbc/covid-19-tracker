@@ -10,7 +10,7 @@ This is a website that displays simple statistics on COVID-19 in the US by state
 I used React.js for the framework of the app.
 
 ## Preview
-![preview of Home Page](https://imgur.com/a/9Xaz9lA)
+![preview of Home Page](https://imgur.com/JZiAVot)
 
 ## API
 
