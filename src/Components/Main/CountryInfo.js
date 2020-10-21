@@ -21,7 +21,7 @@ const CountryInfo = ({CountryInputApp}) => {
 
     useEffect(()=>{
         if (CountryInputApp !== ''){
-            let filteredCountry = ByCountryData.Countries.filter(d=>(d.Country == CountryInputApp))
+            let filteredCountry = ByCountryData.Countries.filter(d=>(d.Country.toLowerCase().includes(CountryInputApp.toLowerCase())))
             setSingleCountryData(filteredCountry[0])
         }
     },[CountryInputApp])

@@ -7,7 +7,7 @@ const StateInfo = ({inputApp}) => {
     const [stateData, setStateData] = useState([])
 
 
-    let filteredState = stateAbbreviation.filter(d=>(d.name == inputApp || d.abbreviation == inputApp))
+    let filteredState = stateAbbreviation.filter(d=>(d.name == inputApp.toUpperCase() || d.abbreviation == inputApp.toUpperCase()))
     console.log('filteredState', filteredState)
     let index = stateAbbreviation.indexOf(filteredState[0])
 
