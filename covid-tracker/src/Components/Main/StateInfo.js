@@ -15,7 +15,7 @@ const StateInfo = ({inputApp}) => {
     console.log('stateinfo-index', index)
 
     useEffect(() => {
-        const urlState = 'https://covidtracking.com/api/states'
+        const urlState = 'https://api.covidtracking.com/v1/states/current.json'
         const makeApiCallState = async () => {
             const resState = await fetch(urlState)
             const jsonState = await resState.json()
