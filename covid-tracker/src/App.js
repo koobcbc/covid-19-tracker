@@ -18,7 +18,7 @@ function App() {
   const [CountryInputApp, setCountryInputApp] = useState('')
 
   useEffect(()=>{
-    const urlSummary = 'https://covidtracking.com/api/us'
+    const urlSummary = 'https://api.covidtracking.com/v1/us/current.json'
     const makeApiCallSummary =  async () =>{
       const resSummary = await fetch(urlSummary)
       const jsonSummary = await resSummary.json()
